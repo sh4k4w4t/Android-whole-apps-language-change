@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test Language with activity</string>
+
+    <string name="test1">পরীক্ষা 1</string>
+    <string name="test2">পরীক্ষা 2</string>
+    <string name="test3">পরীক্ষা 3</string>
+    <string name="test4">পরীক্ষা 4</string>
+    <string name="test5">পরীক্ষা 5</string>
+
+</resources>
