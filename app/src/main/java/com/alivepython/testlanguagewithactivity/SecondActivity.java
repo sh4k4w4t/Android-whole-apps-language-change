@@ -66,6 +66,26 @@ public class SecondActivity extends AppCompatActivity {
     public void convertedToEnglish(View view) {
         SharedPreferences sharedPreferences= getSharedPreferences("language_select", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("language", "en");
+        editor.apply();
+
+        finish();
+        startActivity(getIntent());
+    }
+
+    public void convertedToBangla(View view) {
+        SharedPreferences sharedPreferences= getSharedPreferences("language_select", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("language", "bn");
+        editor.apply();
+
+        finish();
+        startActivity(getIntent());
+    }
+
+    public void convertedToDutch(View view) {
+        SharedPreferences sharedPreferences= getSharedPreferences("language_select", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("language", "de");
         editor.apply();
 
